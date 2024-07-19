@@ -1,0 +1,159 @@
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+  
+    --font-family1:  "Poppins", sans-serif;
+  
+    --font-weight-light: 200;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5rem 1rem;
+    background-color: var(--Very-Light-Gray);
+    font-family: var(--font-family1);
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+h1, h3 {
+    color: var(--Very-Dark-Blue);
+}
+
+h1 span {
+    font-weight: var(--font-weight-light);
+    padding-bottom: 1rem;
+}
+
+h1 {
+    padding-bottom: 1rem ;
+}
+
+p {
+    color: var(--Grayish-Blue);
+}
+
+article > p {
+    font-size: 16px;
+    padding-bottom: 5rem;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    /*position: relative;*/
+}
+
+.box {
+    background-color: white;
+    text-align: left;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 16px var(--Grayish-Blue); 
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 350px;
+
+}
+
+.box > h3 {
+    padding-bottom: 0.5rem;
+}
+
+.box > p {
+    font-size: 0.855rem;
+    padding-bottom: 2rem;
+}
+
+.box > img {
+    display: block;
+    margin-left: auto;
+}
+
+.supervisor {
+    border-top: 0.3rem solid var(--Cyan);
+}
+
+.builder {
+    border-top: 0.3rem solid var(--Red);
+}
+
+.karma {
+    border-top: 0.3rem solid var(--Orange);
+}
+
+.calculator {
+    border-top: 0.3rem solid var(--Blue);
+}
+
+footer {
+    font-size: 10px;
+    justify-content: center;
+}
+
+
+@media (min-width: 430px) {
+    main > article {
+      max-width: 400px;
+      margin: auto;
+    }
+
+    main > article p {
+        font-size: 0.7rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 22rem);
+        column-gap: 1rem;
+        justify-content: center;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .container .supervisor {
+        transform: translateY(50%);
+    }
+
+    .container .calculator {
+        transform: translateY(50%);
+    }
+}
+
