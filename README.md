@@ -45,5 +45,5 @@ I learned more about Flexbox and using the transofrm property in CSS
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BozJR)
+- Frontend Mentor - [@BozJR](https://www.frontendmentor.io/profile/BozJR)
 
