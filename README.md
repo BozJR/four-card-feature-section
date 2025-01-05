@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![./completion-pic/four-card-feature-screenshot.jpeg]
+![](/completion%20pic/four-card-feature-screenshot.jpeg)
 
 
 ### Links
