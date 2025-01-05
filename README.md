@@ -1,6 +1,6 @@
-# Frontend Mentor - Four card feature section solution
+# Four card feature section solution
 
-This is my solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the creating a basic Four card feature section of a webpage. 
 
 
 ## Table of contents
@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./completion-pic/four-card-feature-screenshot.jpeg)
+![./completion-pic/four-card-feature-screenshot.jpeg]
 
 
 ### Links
@@ -40,10 +40,10 @@ Users should be able to:
 
 ### What I learned
 
-I learned more about Flexbox and using the transofrm property in CSS
+I learned more about Flexbox and using the transform property in CSS
 
 
 ## Author
 
-- Frontend Mentor - [@BozJR](https://www.frontendmentor.io/profile/BozJR)
+- GitHub Profile - https://github.com/BozJR?tab=repositories
 
